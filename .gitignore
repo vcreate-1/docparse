@@ -1,0 +1,22 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.venv-ml/
+node_modules/
+dist/
+.env
+.env.*
+
+# Uploaded documents, detection caches, templates, LLM cache - local data only
+backend/data/
+
+# Source PDFs are inputs supplied for testing (third-party reports): never committed.
+# Synthetic test reports are regenerated with scripts/make_sample_report.py and
+# scripts/make_report_series.py.
+*.pdf
+samples/
+
+# Evaluation caches
+eval/.cache/

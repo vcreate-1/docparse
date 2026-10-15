@@ -1,0 +1,206 @@
+{
+ "about": "Fields to pull from real passages (text layer). Scored: value correct (numbers to 1e-6, text case-insensitive) and not flagged unsupported.",
+ "cases": [
+  {
+   "doc": "AAR-RIO-October-2026-FINAL.pdf",
+   "page": 1,
+   "bbox": [
+    0.094,
+    0.714,
+    0.829,
+    0.914
+   ],
+   "fields": [
+    {
+     "name": "intermodal_units_per_week",
+     "type": "number",
+     "expected": 295000
+    },
+    {
+     "name": "month",
+     "type": "text",
+     "expected": "September"
+    },
+    {
+     "name": "record_quarter",
+     "type": "text",
+     "expected": "third quarter"
+    }
+   ]
+  },
+  {
+   "doc": "AAR-RIO-October-2026-FINAL.pdf",
+   "page": 3,
+   "bbox": [
+    0.094,
+    0.304,
+    0.898,
+    0.357
+   ],
+   "fields": [
+    {
+     "name": "storage_share",
+     "type": "percent",
+     "expected": 17.7
+    },
+    {
+     "name": "lowest_since",
+     "type": "text",
+     "expected": "April 2023"
+    }
+   ]
+  },
+  {
+   "doc": "AAR-RIO-October-2026-FINAL.pdf",
+   "page": 3,
+   "bbox": [
+    0.094,
+    0.545,
+    0.888,
+    0.579
+   ],
+   "fields": [
+    {
+     "name": "gdp_growth",
+     "type": "percent",
+     "expected": 2.2
+    },
+    {
+     "name": "gdp_quarter",
+     "type": "text",
+     "expected": "Q2 2026"
+    }
+   ]
+  },
+  {
+   "doc": "AAR-RIO-October-2026-FINAL.pdf",
+   "page": 3,
+   "bbox": [
+    0.094,
+    0.601,
+    0.896,
+    0.671
+   ],
+   "fields": [
+    {
+     "name": "pmi_months_above_50",
+     "type": "number",
+     "expected": 9
+    },
+    {
+     "name": "output_highest_since",
+     "type": "text",
+     "expected": "early 2022"
+    }
+   ]
+  },
+  {
+   "doc": "Parker-Bay-surface-mining-equipment-index-Q2-2019.pdf",
+   "page": 1,
+   "bbox": [
+    0.081,
+    0.5,
+    0.882,
+    0.581
+   ],
+   "fields": [
+    {
+     "name": "index_change_pct",
+     "type": "percent",
+     "expected": -1
+    },
+    {
+     "name": "index_level",
+     "type": "number",
+     "expected": 88.5
+    },
+    {
+     "name": "base_year",
+     "type": "number",
+     "expected": 2007
+    }
+   ]
+  },
+  {
+   "doc": "Parker-Bay-surface-mining-equipment-index-Q2-2019.pdf",
+   "page": 1,
+   "bbox": [
+    0.081,
+    0.593,
+    0.882,
+    0.708
+   ],
+   "fields": [
+    {
+     "name": "units_shipped_change_pct",
+     "type": "percent",
+     "expected": -8
+    },
+    {
+     "name": "hydraulic_shovels_change_pct",
+     "type": "percent",
+     "expected": 22
+    },
+    {
+     "name": "wheel_loaders_change_pct",
+     "type": "percent",
+     "expected": 17
+    },
+    {
+     "name": "dozer_change_pct",
+     "type": "percent",
+     "expected": -23
+    }
+   ]
+  },
+  {
+   "doc": "2026-power-report.pdf",
+   "page": 6,
+   "bbox": [
+    0.103,
+    0.319,
+    0.89,
+    0.403
+   ],
+   "fields": [
+    {
+     "name": "ercot_2030_estimate_from_gw",
+     "type": "number",
+     "expected": 29
+    },
+    {
+     "name": "ercot_2030_estimate_to_gw",
+     "type": "number",
+     "expected": 77
+    },
+    {
+     "name": "pjm_revision_pct",
+     "type": "percent",
+     "expected": 10
+    }
+   ]
+  },
+  {
+   "doc": "readiness-report.pdf",
+   "page": 11,
+   "bbox": [
+    0.059,
+    0.32,
+    0.381,
+    0.385
+   ],
+   "fields": [
+    {
+     "name": "feel_ready_pct",
+     "type": "percent",
+     "expected": 31
+    },
+    {
+     "name": "change_vs_2024_pts",
+     "type": "number",
+     "expected": 2
+    }
+   ]
+  }
+ ]
+}

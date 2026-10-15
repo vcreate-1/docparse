@@ -1,0 +1,7 @@
+# Optional layout detectors for the comparison overlay. Large (PyTorch,
+# PaddlePaddle + model weights, ~2 GB), so they live in a separate venv:
+#   python3 -m venv .venv-ml && .venv-ml/bin/pip install -r requirements-dev.txt -r requirements-ml.txt
+#   .venv-ml/bin/uvicorn app.main:app --port 8000
+docling
+paddlepaddle
+paddleocr>=3

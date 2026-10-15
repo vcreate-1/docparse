@@ -1,0 +1,255 @@
+{
+ "about": "Picture charts read by vision model + OCR check. printed: value must match and be marked exact; estimated: within tolerance and marked approximate; none_printed: the model must not claim printed values.",
+ "charts": [
+  {
+   "doc": "Sector Report DataCentre.pdf",
+   "page": 10,
+   "bbox": [
+    0.098,
+    0.304,
+    0.898,
+    0.676
+   ],
+   "printed": [
+    [
+     "AMER",
+     "2025",
+     49
+    ],
+    [
+     "APAC",
+     "2025",
+     32
+    ],
+    [
+     "EMEA",
+     "2025",
+     21
+    ],
+    [
+     "AMER",
+     "2030",
+     109
+    ],
+    [
+     "APAC",
+     "2030",
+     57
+    ],
+    [
+     "EMEA",
+     "2030",
+     34
+    ]
+   ],
+   "estimated": [
+    [
+     "AMER",
+     "2020",
+     25,
+     0.35
+    ],
+    [
+     "APAC",
+     "2020",
+     25,
+     0.35
+    ],
+    [
+     "EMEA",
+     "2020",
+     21,
+     0.35
+    ]
+   ]
+  },
+  {
+   "doc": "2026-power-report.pdf",
+   "page": 10,
+   "bbox": [
+    0.107,
+    0.371,
+    0.895,
+    0.611
+   ],
+   "printed": [
+    [
+     null,
+     "Not evaluating",
+     27
+    ],
+    [
+     null,
+     "Actively evaluating",
+     73
+    ],
+    [
+     null,
+     "Mobile turbines",
+     33
+    ],
+    [
+     null,
+     "Reciprocating engines",
+     38
+    ],
+    [
+     null,
+     "Fuel cells",
+     47
+    ]
+   ]
+  },
+  {
+   "doc": "AAR-RIO-October-2026-FINAL.pdf",
+   "page": 2,
+   "bbox": [
+    0.435,
+    0.53,
+    0.905,
+    0.81
+   ],
+   "printed": [
+    [
+     null,
+     "Primary metal products",
+     5904
+    ],
+    [
+     null,
+     "Grain",
+     5867
+    ],
+    [
+     null,
+     "Petrol. & petr. products",
+     5499
+    ],
+    [
+     null,
+     "Chemicals",
+     3811
+    ],
+    [
+     null,
+     "Coke",
+     2863
+    ],
+    [
+     null,
+     "Waste & nonferrous scrap",
+     2189
+    ],
+    [
+     null,
+     "Metallic ores",
+     2120
+    ],
+    [
+     null,
+     "Lumber & wood products",
+     2074
+    ],
+    [
+     null,
+     "Stone, clay & glass products",
+     2044
+    ],
+    [
+     null,
+     "Crushed stone, sand, gravel",
+     1937
+    ],
+    [
+     null,
+     "Farm products excl. grain",
+     1183
+    ],
+    [
+     null,
+     "Iron & steel scrap",
+     1146
+    ],
+    [
+     null,
+     "Food products",
+     537
+    ],
+    [
+     null,
+     "Primary forest products",
+     444
+    ],
+    [
+     null,
+     "Grain mill products",
+     167
+    ],
+    [
+     null,
+     "Pulp & paper products",
+     153
+    ],
+    [
+     null,
+     "Nonmetallic minerals",
+     45
+    ],
+    [
+     null,
+     "Carloads n.e.c.",
+     -155
+    ],
+    [
+     null,
+     "Motor veh. & parts",
+     -1009
+    ],
+    [
+     null,
+     "Coal",
+     -7274
+    ]
+   ]
+  },
+  {
+   "doc": "Sector Report DataCentre.pdf",
+   "page": 13,
+   "bbox": [
+    0.285,
+    0.184,
+    0.707,
+    0.482
+   ],
+   "printed_text": [
+    [
+     "Land & Shell",
+     "15-20%"
+    ],
+    [
+     "Building Fit-out",
+     "20-25%"
+    ],
+    [
+     "HVAC/Mechanical",
+     "15-20%"
+    ],
+    [
+     "Electrical Systems",
+     "40-45%"
+    ]
+   ]
+  },
+  {
+   "doc": "AAR-RIO-October-2026-FINAL.pdf",
+   "page": 1,
+   "bbox": [
+    0.495,
+    0.645,
+    0.905,
+    0.86
+   ],
+   "none_printed": true
+  }
+ ]
+}
